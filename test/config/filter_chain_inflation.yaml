@@ -1,0 +1,14 @@
+mitre_fast_layered_map_filters:
+
+  - name: inflation
+    type: mitreFastLayeredMap/Inflation
+    params:
+      layer: nonground
+      inflation_side_len_m: 1.5
+
+mitre_fast_layered_map_filters_low_inflation:
+  - name: inflation
+    type: mitreFastLayeredMap/Inflation
+    params:
+      layer: nonground
+      inflation_side_len_m: 1
